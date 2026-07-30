@@ -42,15 +42,15 @@ function App() {
             <li>3 limões</li>
           <ul>
             <li>
-              <a href="https://vite.dev/" target="_blank">
+              <a href="https://receitas.globo.com/tipos-de-prato/tortas/torta-de-limao-simples-4eb1a585e316e93d6e001832.ghtml" target="_blank">
                 <img className="logo" src={viteLogo} alt="" />
                 Explore receita no Receitaria
               </a>
             </li>
             <li>
-              <a href="https://react.dev/" target="_blank">
+              <a href="https://youtube.com/shorts/jDfG_rDA27A?si=Umpc7k0bnnxAiPnz" target="_blank">
                 <img className="button-icon" src={reactLogo} alt="" />
-                Explore receita em vídeo no youtube da sla oq 
+                Explore receita em vídeo no youtube da Metida a Gourmet
               </a>
             </li>
           </ul>
@@ -77,56 +77,6 @@ function App() {
             <li>Polvilhe as raspas de limão por cima.</li>
             <li>Deixe esfriar e leve à geladeira por pelo menos 2 horas antes de servir.</li>
           </ol>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
         </div>
       </section>
 
