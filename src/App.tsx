@@ -1,5 +1,5 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import blogIcon from './assets/icons/icons8-blog-48.png'
+import youtubeIcon from './assets/icons/icons8-reproduzir-youtube-48.png'
 import heroImg from './assets/hero.png'
 import './App.css'
 
@@ -10,9 +10,7 @@ function App() {
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
+        </div>    
         <div>
           <h1>Torta de limão do aniversário da Iara</h1>
           <p>
@@ -40,20 +38,22 @@ function App() {
             <li>2 lata de creme de leite</li>
             <li>3 ovos</li>
             <li>3 limões</li>
+          <div className="buttons">
           <ul>
             <li>
-              <a href="https://receitas.globo.com/tipos-de-prato/tortas/torta-de-limao-simples-4eb1a585e316e93d6e001832.ghtml" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
+              <a className="buttom" href="https://receitas.globo.com/tipos-de-prato/tortas/torta-de-limao-simples-4eb1a585e316e93d6e001832.ghtml" target="_blank">
+                <img className="logo" src={blogIcon} alt="" />
                 Explore receita no Receitaria
               </a>
             </li>
             <li>
-              <a href="https://youtube.com/shorts/jDfG_rDA27A?si=Umpc7k0bnnxAiPnz" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Explore receita em vídeo no youtube da Metida a Gourmet
+              <a className="buttom" href="https://youtube.com/shorts/jDfG_rDA27A?si=Umpc7k0bnnxAiPnz" target="_blank">
+                <img className="button-icon" src={youtubeIcon} alt="" />
+                Explore receita no youtube
               </a>
             </li>
           </ul>
+          </div>
         </div>
         <div id="social">
           <svg className="icon" role="presentation" aria-hidden="true">
