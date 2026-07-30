@@ -1,6 +1,9 @@
 import blogIcon from './assets/icons/icons8-blog-48.png'
 import youtubeIcon from './assets/icons/icons8-reproduzir-youtube-48.png'
-import heroImg from './assets/hero.png'
+import heroImg from './assets/cake.gif'
+import tortaImg from './assets/imgs/torta-fatia.jpg'
+import torta2Img from './assets/imgs/torta-s-forma.jpg'
+import torta3Img from './assets/imgs/torta-forma.jpg'
 import './App.css'
 
 function App() {
@@ -9,15 +12,22 @@ function App() {
     <>
       <section id="center">
         <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
+          <img src={heroImg} width="170" height="179" alt="" />
         </div>    
         <div>
           <h1>Torta de limão do aniversário da Iara</h1>
           <p>
-           Receita de torta de limão baseada em algumas receitas da internet. Referências:
+           Receita de torta de limão baseada em algumas receitas da internet. Registros de como ficou a minha torta:
           </p>
+
+          <div className="gallery">
+          <img src={tortaImg} className="base" width="270" height="270" alt="fatia de torta de limão, fundo céu azul e árvores" />
+          <img src={torta2Img} className="base" width="270" height="270" alt="fatia de torta de limão, fundo céu azul e árvores" />
+          <img src={torta3Img} className="base" width="270" height="270" alt="fatia de torta de limão, fundo céu azul e árvores" />
+        </div>  
         </div>
         
+       
       </section>
 
 

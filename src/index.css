@@ -50,6 +50,27 @@
   }
 }
 
+@media (min-width: 18px) {
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+
+  .base {
+  display: flex;
+  flex-direction: collumn;
+  justify-content: left;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  object-fit: cover;
+  margin: 0 10px;
+  gap: 20px;
+  margin: 20px 20px 40px;
+}
+}
+
 #root {
   width: 1126px;
   max-width: 100%;
@@ -99,6 +120,25 @@ li {
   text-align: left;
   margin: 0 0 8px;
 
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.base {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  object-fit: cover;
+  margin: 0 10px;
+  gap: 20px;
+  margin: 20px 20px 40px;
 }
 
 .buttom {
