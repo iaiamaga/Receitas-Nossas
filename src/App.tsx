@@ -39,7 +39,7 @@ function App() {
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
           <h2>Ingrdientes</h2>
-          <p>adapte a quantidade conforme for necessário na sua receita</p>
+          <p>adapte a quantidade conforme for necessário pra sua situação</p>
         
             <li>3 pacotes de biscoito maisena (total: 300g)</li>
             <li>4 colheres de margarina ou manteiga derretida</li>
