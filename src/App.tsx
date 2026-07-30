@@ -21,9 +21,9 @@ function App() {
           </p>
 
           <div className="gallery">
-          <img src={tortaImg} className="base" width="270" height="270" alt="fatia de torta de limão, fundo céu azul e árvores" />
-          <img src={torta2Img} className="base" width="270" height="270" alt="fatia de torta de limão, fundo céu azul e árvores" />
-          <img src={torta3Img} className="base" width="270" height="270" alt="fatia de torta de limão, fundo céu azul e árvores" />
+          <img src={tortaImg} className="base"  alt="fatia de torta de limão, fundo céu azul e árvores" />
+          <img src={torta2Img} className="base"  alt="fatia de torta de limão, fundo céu azul e árvores" />
+          <img src={torta3Img} className="base"  alt="fatia de torta de limão, fundo céu azul e árvores" />
         </div>  
         </div>
         

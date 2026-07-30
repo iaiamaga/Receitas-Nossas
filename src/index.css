@@ -50,25 +50,32 @@
   }
 }
 
-@media (min-width: 18px) {
-  .gallery {
-    display: flex;
+#center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+  #center {
     flex-direction: column;
-    justify-content: center;
-  
+    margin: 20px;
+  }
+
+  .gallery {
+    flex-direction: column;
+    align-items: center;
   }
 
   .base {
-  display: flex;
-  flex-direction: collumn;
-  justify-content: left;
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-  object-fit: cover;
-  margin: 0 10px;
-  gap: 20px;
-  margin: 20px 20px 40px;
-}
+    width: 100%; /* ocupa largura disponível */
+    max-width: 270px;
+    height: auto; /* altura proporcional */
+  }
 }
 
 #root {
@@ -122,24 +129,35 @@ li {
 
 }
 
+#center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%; /* adiciona isso */
+  box-sizing: border-box; /* e isso */
+}
+
 .gallery {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+  flex-wrap: wrap; /* permite as imagens quebrarem linha */
 }
 
 .base {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   border-radius: 8px;
   box-shadow: var(--shadow);
   object-fit: cover;
-  margin: 0 10px;
-  gap: 20px;
   margin: 20px 20px 40px;
+  max-width: 100%; /* imagem nunca ultrapassa o container */
+  width: 270px;
+  height: 270px;
 }
+
+
 
 .buttom {
   display: flex;
